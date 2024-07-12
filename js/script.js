@@ -3,7 +3,7 @@ let clock = new THREE.Clock();
 const gui = new dat.GUI();
 
 let scene, camera, renderer, material;
-let settings = { fps: 30, parallaxVal: 1 };
+let settings = { fps: 120, parallaxVal: 1 };
 let videoElement;
 
 async function init() {
